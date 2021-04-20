@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker container run --rm -v $(pwd):/temp -w /temp $*
